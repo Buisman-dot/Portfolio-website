@@ -1,0 +1,229 @@
+/* Website color scheme is #2B2B28, #E3B04B, #F1D6AB, #F8F8F8*/
+@font-face {
+    font-family: 'FRABK';
+    src: url(fonts/FRABK.TTF);
+}
+
+html {
+    font-family: 'FRABK';
+    background-image: linear-gradient(45deg, #777773, #535353);
+} /*Denoted the whole document as single font, might not work on all computers*/
+
+body {
+    width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: #F8F8F8;
+}
+
+/*OPMAAK*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+h1 {
+    font-size: 3.5rem;
+    color: #E3B04B;
+    border: #E3B04B solid;
+    background-image: linear-gradient(45deg, #2B2B28, #535353);
+    margin: 10px -20px 0px;
+    padding: 4px 10px;
+}
+
+h2 {
+    color: #2B2B28;
+}
+
+img{
+     flex-shrink: 0;
+     border: #E3B04B solid;
+}
+
+Nav{
+    margin-left: -4px;
+}
+Nav a{
+    color: #2B2B28;
+    padding-right: 10px;
+}
+
+.textBlockRegular h2{
+    font-size: 2.25rem;
+    color: #2B2B28;
+}
+
+.textBlockRegular p{
+    color: #2B2B28;
+}
+
+.textBlockRegular p i{
+    color: #464643;
+}
+video{
+    border: #E3B04B solid;
+}
+
+/*text under pictures*/
+.collumnedText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collumnedText p{
+    text-align: center;
+    max-width: 18rem;
+}
+#tekstVolksverhuizing {
+    max-width: 28rem;
+}
+
+#tekstMnM {
+    max-width:28rem;
+}
+
+#tekstUtrecht {
+    max-width:48rem;
+}
+
+.citation {
+    color: #777773;
+    font-size: small;
+}
+
+
+/*AFBEELDINGEN*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.proFoto{
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Certificaten img{
+    width: 300px;
+    margin-right: 10px;
+}
+/* AFBEELDINGEN IN MEDIA*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.mediaAfbeeldingenKlein{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+.mediaAfbeeldingenKlein img{
+    max-height: 14rem;
+}
+
+.mediaAfbeeldingenGroot{
+    display: flex;
+    justify-content: center;
+}
+
+.mediaAfbeeldingenGroot img{
+    max-height: 36rem;
+}
+/* MUZIEK IN MEDIA*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.mediaMusic {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*VIDEOS IN MEDIA*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.mediaVideo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* GAMES IN MEDIA*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.mediaGames {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mediaGames img {
+    max-height: 24rem;
+    border-radius: 16px;
+}
+/*PRODUCTEN*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.producten{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.producten img{
+    height: 14rem;
+    width: auto;
+    margin-right: 10px;
+}
+/*BLOG*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.blogEntry {
+    background-color: #F8F8F8;
+    border: #E3B04B solid;
+    margin: 20px 50px;
+    padding: 0 16px;
+}
+
+.blogEntry h2{
+    margin: 1rem 0 0.2rem;
+}
+
+.blogEntry .updateTekst{
+    margin:0 0 0.6rem;
+    color: #777773;
+}
+
+.blogText p{
+    margin-top: 0.6rem;
+}
+
+/*tags and balls*/
+.tags {
+    display: flex;
+    justify-content: left;
+}
+.tags p{
+    display: flex;
+    border: #E3B04B solid;
+    background-color: #f5dfa3;
+    border-radius: 7px;
+    padding: 2px;
+    font-weight: bold;
+    margin: 0 6px 0 0;
+    align-items: center;
+}
+.ball{
+    display:flex;
+    font-size: 22px;
+    font-weight: bolder;
+    align-items: center;
+}
+#redBall{
+    color: red;
+    -webkit-text-stroke: 1px #2B2B28;
+}
+#blueBall{
+    color: blue;
+    -webkit-text-stroke: 1px #2B2B28;
+}
+#yellowBall{
+    color: yellow;
+    -webkit-text-stroke: 1px #2B2B28;
+}
+/*FOOTER*/
+/*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+footer {
+    margin: 20% 8%;
+    display: flex;
+}
+footer p{
+    font-style: italic;
+    color:#777773;
+    text-align: center;
+    padding-bottom: 4%;
+}
