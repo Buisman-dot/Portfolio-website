@@ -116,6 +116,12 @@ video{
     margin-top: 0;
     padding-right: 2rem;
 }
+/*TRANSITIES*/
+.mediaDocumentenKlein img:hover{
+    transition: all 1s ease-out 600ms;
+    transform: scale(2.6);
+    z-index: 2;
+}
 /*DOCUMENTEN SUPER KLEIN*/
 .mediaDocumentenSuperKlein{
     display: flex;
@@ -138,6 +144,12 @@ video{
 .mediaDocumentenColumn img{
     margin-bottom: 1rem;
 }
+/*TRANSITIES*/
+.mediaDocumentenSuperKlein img:hover{
+    transition: 1s ease-out 600ms;
+    transform: scale(3.6);
+    z-index: 2;
+}
 /*MEDIA KLEIN*/
 .mediaAfbeeldingenKlein{
     display: flex;
@@ -156,6 +168,13 @@ video{
 
 .mediaAfbeeldingenGroot img{
     max-height: 36rem;
+}
+/*TRANSITIES*/
+.mediaAfbeeldingenKlein img:hover{
+    transition: 1s ease-out 600ms;
+    transform: scale(2.6);
+    justify-content: center;
+    z-index: 2;
 }
 /* MUZIEK IN MEDIA*/
 /*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
