@@ -103,6 +103,16 @@ video{
 }
 /* AFBEELDINGEN IN MEDIA*/
 /*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+.mediaDocumentenKlein{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+.mediaDocumentenKlein img{
+    max-height: 14rem;
+    margin-right: 1rem;
+}
 .mediaAfbeeldingenKlein{
     display: flex;
     justify-content: space-around;
