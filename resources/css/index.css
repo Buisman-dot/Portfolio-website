@@ -218,8 +218,9 @@ video{
 /*BLOG*/
 /*———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
 .blogEntry {
-    background-color: #F8F8F8;
+    background-color: #f7f6f6;
     border: #E3B04B solid;
+    box-shadow: 5px 5px 5px #aaaaaa;
     margin: 20px 50px;
     padding: 0 16px;
 }
